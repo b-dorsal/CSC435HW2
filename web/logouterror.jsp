@@ -6,10 +6,11 @@
     <title>Logout Error</title>
 </head>
 <body>
-<a href="login.jsp">Employee Login</a>
-<a href="Logout">Logout</a>
 <a href="findproduct.jsp">Product Info</a>
 <a href="findstore.jsp">Store Info</a>
+<a href="findemployee.jsp">Employee Info</a>
+<a href="login.jsp">Employee Login</a>
+<a href="Logout">Logout</a>
 <a href="Profile">Profile</a> <BR>
 Logout failed, you are not logged in.
 
