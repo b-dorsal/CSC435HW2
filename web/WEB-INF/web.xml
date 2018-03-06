@@ -55,6 +55,17 @@
         <url-pattern>/Store</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <description></description>
+        <display-name>EmployeeController</display-name>
+        <servlet-name>EmployeeController</servlet-name>
+        <servlet-class>retailservice.controller.EmployeeController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EmployeeController</servlet-name>
+        <url-pattern>/Employee</url-pattern>
+    </servlet-mapping>
+
 
     <!-- REST Mappings -->
     <servlet>
@@ -73,6 +84,15 @@
     <servlet-mapping>
         <servlet-name>ProductControllerREST</servlet-name>
         <url-pattern>/restful/product</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeControllerREST</servlet-name>
+        <servlet-class>retailservice.restful.controller.EmployeeController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EmployeeControllerREST</servlet-name>
+        <url-pattern>/restful/employee</url-pattern>
     </servlet-mapping>
 
 </web-app>

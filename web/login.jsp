@@ -6,10 +6,11 @@
     <title>Insert title here</title>
 </head>
 <body>
-<a href="login.jsp">Employee Login</a>
-<a href="Logout">Logout</a>
 <a href="findproduct.jsp">Product Info</a>
 <a href="findstore.jsp">Store Info</a>
+<a href="findemployee.jsp">Employee Info</a>
+<a href="login.jsp">Employee Login</a>
+<a href="Logout">Logout</a>
 <a href="Profile">Profile</a> <BR>
 <form action="Login" method="post">
     Enter username : <input type="text" name="username"> <BR>
